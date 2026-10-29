@@ -130,6 +130,10 @@ h3{font-size:1.25rem; font-weight:600; letter-spacing:0}
 .hero-media img{width:100%; height:100%; object-fit:cover}
 .hero::after{content:""; position:absolute; inset:0; z-index:-1;
   background:linear-gradient(180deg,rgba(13,11,9,.55) 0%,rgba(13,11,9,.25) 40%,rgba(13,11,9,.92) 100%)}
+/* red stage-light grade (home) — replicates the original site's #750000→#8a5c0a overlay blend */
+.hero--red .hero-media::after{content:""; position:absolute; inset:0;
+  background:linear-gradient(180deg,rgba(117,0,0,.82) 0%,rgba(117,0,0,.62) 55%,rgba(138,92,10,.55) 100%);
+  mix-blend-mode:multiply}
 .hero-in{width:100%; max-width:var(--wide); margin-inline:auto; padding:var(--sp-8) var(--sp-5) var(--sp-7)}
 .hero .label{margin-bottom:var(--sp-4)}
 .hero p.lede{margin-bottom:var(--sp-6)}
