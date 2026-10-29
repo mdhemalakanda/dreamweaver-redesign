@@ -1,0 +1,12 @@
+# Dreamweaver Events redesign — redirects for dead/stray URLs
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Redirect 301 /home-2/ /designs/
+Redirect 301 /services/artist-management/ /services/
+Redirect 301 /services/audio-visual-production-2/ /services/
+Redirect 301 /services/event-planning-and-execution/ /services/event-management/
+Redirect 301 /services/logistic-support/ /services/
+Redirect 301 /services/sports-planning-management/ /services/
+Redirect 301 /services/website-development-and-seo/ /services/
+Redirect 301 /category/uncategorized/ /blog/
+</IfModule>
